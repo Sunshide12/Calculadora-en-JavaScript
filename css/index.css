@@ -1,9 +1,9 @@
 .modal {
-    display: none; /* Hidden by default */
+  display: none; /* Hidden by default */
 }
 
 body {
-    background: linear-gradient(to right, #a0b5eb 0%, #ea52f8 0%, #0066ff 100%);
+  background: linear-gradient(to right, #a0b5eb 0%, #ea52f8 0%, #0066ff 100%);
 }
 
 #calculadora {
@@ -13,9 +13,17 @@ body {
   transform: translate(-50%, -50%);
 }
 
+
 .container {
-    border: 2px solid;
-    padding: 1.7%;
-    background: linear-gradient(to right, #a0b5eb 0%, #ea52f8 0%, #0066ff 100%);
-    border-radius: 5%;
+  border: 2px solid;
+  padding: 1.7%;
+  background: linear-gradient(to right, #a0b5eb 0%, #ea52f8 0%, #0066ff 100%);
+  border-radius: 5%;
+}
+
+.card.card-body {
+  width: fit-content;
+  max-width: 90%;
+  white-space: nowrap;
+  padding: 0.5rem 1rem;
 }
