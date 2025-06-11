@@ -1,0 +1,21 @@
+.modal {
+    display: none; /* Hidden by default */
+}
+
+body {
+    background: linear-gradient(to right, #a0b5eb 0%, #ea52f8 0%, #0066ff 100%);
+}
+
+#calculadora {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+    border: 2px solid;
+    padding: 1.7%;
+    background: linear-gradient(to right, #a0b5eb 0%, #ea52f8 0%, #0066ff 100%);
+    border-radius: 5%;
+}
